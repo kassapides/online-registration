@@ -1,0 +1,282 @@
+* {
+   
+    font-family: 'Indie Flower', cursive;
+    
+}
+
+fieldset {
+    border: 0;
+}
+
+legend {
+    font-weight: bolder;
+    font-size: 1.5em;
+ }
+
+ input {
+     padding-top: 20px;
+     padding-left: 160px;
+     border-radius: 5px;
+     border: 1px solid white;
+ }
+
+.contact-inputs {
+display: flex;
+flex-direction: column;
+
+}
+
+
+.name-friends, 
+.email-friends, 
+.phone-friends, 
+.address-friends, 
+.city-friends, 
+.state-friends, 
+.zip-friends {
+
+display: flex;
+flex-direction: column;
+    padding-top: 20px;
+    padding-bottom: 10px;
+
+
+}
+
+
+select[id="state"] {
+    display: flex;
+    flex-direction: row; 
+    padding-top: 20px;
+     padding-left: 160px;
+     border-radius: 5px;
+     border: 1px solid white;
+}
+.html-friends, 
+.css-friends, 
+.js-friends, 
+.html-format-friends, 
+.plain-text-friends {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.select-news-section {
+    padding-bottom: 20px;
+}
+
+.news-section {
+    padding-top: 20px;
+}
+
+
+input[type="email"]::placeholder {
+    text-align: right;
+    color: rgb(255, 19, 19);
+}
+
+input[type="number"]::placeholder {
+    text-align: right;
+    color: rgb(255, 73, 255);
+}
+
+
+.lots-of-stuff {
+    color: rgb(124, 178, 240); 
+    background-color: purple;
+
+}
+
+.main-header  {
+    background-color: rgb(114, 234, 250);
+    text-align: center;
+    font-size: larger;
+    color:  purple;
+    font-weight: bolder;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.header-content {
+
+    text-align: center;
+}
+
+
+
+.other-topics {
+
+    padding-top: 20px;
+}
+
+
+
+textarea {
+
+    width: 100%;
+    height: 100px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+    resize: none;
+}
+
+.button-section {
+
+    padding-top: 25px;
+}
+
+.button {
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.5em;
+    font-weight: bolder;
+    color: orangered;
+    width: 100%;
+    height: 70px;
+    padding: 12px 20px;
+    background-color: rgb(159, 252, 0);
+    text-align: center;
+    
+
+}
+
+.button:hover {
+    opacity: .5;
+    color: palegreen;
+}
+
+.other-topics {
+    padding-bottom: 20px;
+}
+.feet {
+    
+    font-size: 13px;
+    color: chartreuse;
+    text-align: center;
+    padding-bottom: 100px;
+
+}
+
+hr {
+    width: 95%;
+}
+
+
+
+
+
+@media (min-width: 768px) {
+
+.news-letter-inputs, 
+.contact-inputs {
+    margin: 0 auto;
+    max-width: 768px;
+    font-weight: 200;
+    background-color: purple;
+    color: rgb(124, 178, 240);
+}
+
+.name-friends, 
+.email-friends, 
+.phone-friends, 
+.address-friends, 
+.city-friends, 
+.state-friends, 
+.zip-friends {
+
+display: flex;
+flex-direction: row;
+    padding-top: 20px;
+    padding-bottom: 10px;
+
+
+}
+
+label[for="name"] {
+    padding-right: 60px;
+}
+
+label[for="mail"] {
+    padding-right: 30px;
+}
+
+label[for="number"] {
+    padding-right: 48px;
+}
+
+label[for="address"] {
+    padding-right: 28px;
+}
+
+label[for="city"] {
+    padding-right: 100px;
+}
+label[for="state"] {
+    padding-right: 88px;
+}
+label[for="zip"] {
+    padding-right: 68px;
+}
+input[type="email"]  {
+    width: 68%;
+    padding-left: 30px;
+}
+
+input[type="text"]  {
+    width: 68%;
+    padding-left: 30px;
+}
+
+input[type="number"]  {
+    width: 68%;
+    padding-left: 30px;
+}
+input[type="address"]  {
+    width: 68%;
+    padding-left: 30px;
+}
+
+input[type="city"]  {
+    width: 68.5%;
+    padding-left: 30px;
+}
+
+select {
+    width: 73%;
+    padding-left: 15px; 
+    padding-bottom: 20px;
+    border-radius: 5px;
+}
+
+input[type="zip"]  {
+    width: 5%;
+    padding-left: 80px;
+}
+
+
+.hr-1 {
+    width: 770px;
+}
+
+textarea[type="stuff"] {
+    width: 90%;
+    padding-left: 30px; 
+}
+
+button[type="submit"] {
+    width: 90%;
+    padding-left: 30px; 
+}
+
+
+
+.feet {
+    padding-bottom: 400px;
+    
+}
+
+}
