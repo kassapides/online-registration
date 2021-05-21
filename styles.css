@@ -11,6 +11,7 @@ fieldset {
 legend {
     font-weight: bolder;
     font-size: 1.5em;
+    padding-top: 20px;
  }
 
  input {
@@ -32,15 +33,22 @@ flex-direction: column;
 .phone-friends, 
 .address-friends, 
 .city-friends, 
-.state-friends, 
-.zip-friends {
+.state-friends {
 
-display: flex;
-flex-direction: column;
+    display: flex;
+    flex-direction: column;
     padding-top: 20px;
     padding-bottom: 10px;
 
 
+}
+
+.zip-friends {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    width: 30%;   
 }
 
 
@@ -76,7 +84,7 @@ input[type="email"]::placeholder {
     color: rgb(255, 19, 19);
 }
 
-input[type="number"]::placeholder {
+input[type="text"]::placeholder {
     text-align: right;
     color: rgb(255, 73, 255);
 }
@@ -161,8 +169,13 @@ textarea {
 
 }
 
-hr {
+.hr-1 {
     width: 95%;
+    height: 3px;
+}
+
+.hr-2 {
+    width: 95%;   
 }
 
 
@@ -188,8 +201,8 @@ hr {
 .state-friends, 
 .zip-friends {
 
-display: flex;
-flex-direction: row;
+    display: flex;
+    flex-direction: row;
     padding-top: 20px;
     padding-bottom: 10px;
 
@@ -231,16 +244,16 @@ input[type="text"]  {
     padding-left: 30px;
 }
 
-input[type="number"]  {
+input[type="tel"]  {
     width: 68%;
     padding-left: 30px;
 }
-input[type="address"]  {
+input[type="text"]  {
     width: 68%;
     padding-left: 30px;
 }
 
-input[type="city"]  {
+input[id="city"]  {
     width: 68.5%;
     padding-left: 30px;
 }
@@ -248,21 +261,28 @@ input[type="city"]  {
 select {
     width: 73%;
     padding-left: 15px; 
-    padding-bottom: 20px;
+    padding-bottom: 1px;
     border-radius: 5px;
 }
 
-input[type="zip"]  {
+input[id="zip"]  {
     width: 5%;
     padding-left: 80px;
 }
 
 
-.hr-1 {
+.hr-2 {
     width: 770px;
+
 }
 
-textarea[type="stuff"] {
+.hr-1 {
+    width: 770px; 
+    height: 3px;
+    display: block;
+}
+
+textarea[id="topics"] {
     width: 90%;
     padding-left: 30px; 
 }

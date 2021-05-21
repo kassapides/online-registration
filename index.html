@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="<link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles.css">
     <title>project 3</title>
@@ -21,16 +21,16 @@
             <h2>Signup for our newsletter</h2>
             <p>Get the awesomest news ever on how your code is doing right in your inbox</p>
         
-            <hr class="hr-1" size="5" width="100%" color="lightblue">  
-            <hr class="hr-1" size="2" width="99%" color="lightblue"> 
+            <hr class="hr-1">  
+            <hr class="hr-2"> 
         </div>
 
 
     <form class="form-class" action="index.html" method="post">
         <fieldset class="contact-inputs"> 
-           
-           <div class="contact-head">
             <legend>Contact Information</legend>
+           <div class="contact-head">
+            
         
         </div>
             
@@ -40,7 +40,7 @@
            
             
                
-                <input type="text" id="name" name="user_name">
+                <input type="text" id="name" name="user_name" placeholder="Mandatory">
             
             </div>
             
@@ -58,7 +58,7 @@
         
             <label for="number">Cell Number</label>
             
-                <input type="number" id="number" name="user_phone" placeholder="Mandatory">
+                <input type="tel" id="number" name="user_phone">
                
         </div>
      
@@ -66,14 +66,14 @@
         <div class="address-friends"> 
             <label for="address">Home Address</label>
        
-                <input type="address" id="address" name="user_address">
+                <input type="text" id="address" name="user_address">
        </div>
             
        <div class="city-friends"> 
        
             <label for="city">City</label>
        
-                <input type="city" id="city" name="user_city">
+                <input type="text" id="city" name="user_city">
             
         </div>
 
@@ -146,10 +146,10 @@
             <label for="zip">Zip Code</label>
            
       
-                <input type="zip" id="zip" name="user_zip">
+                <input type="text" id="zip" name="user_zip">
        </div>
     
-        <hr class="hr-1" size="2" width="100%" color="lightblue"> 
+        <hr class="hr-2"> 
     
     
 </fieldset>
@@ -182,10 +182,10 @@
             </div>
 
         <div class="news-section">
-             <label for="html">Newsletter Format?</label>
+             <label for="html-news">Newsletter Format?</label>
         </div>     
          <div class="html-format-friends">      
-            <input type="radio" id="html" value="html" name="user_newsletter"><label for="html" class="light">HTML</label>
+            <input type="radio" id="html-news" value="html" name="user_newsletter"><label for="html" class="light">HTML</label>
         </div>   
                
         <div class="plain-text-friends">
@@ -196,7 +196,7 @@
         
             <label for="topics">Other topics you'd like to hear about</label>
         </div>
-            <textarea class="text-topics" type="stuff" id="topics" value="topics" name="user_topics"></textarea>
+            <textarea class="text-topics" id="topics" name="user_topics"></textarea>
        
     <div class="button-section">
 
@@ -207,7 +207,7 @@
 
 </form>
 
-    </div>
+   
 
     
     
