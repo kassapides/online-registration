@@ -3,6 +3,21 @@
     font-family: 'Indie Flower', cursive;
     
 }
+textarea:focus {
+    background: pink;
+  }
+
+  select:focus {
+    background: pink;
+  }
+
+  text:focus {
+    background: pink;
+  }
+
+  input:focus {
+    background: pink;
+  }
 
 fieldset {
     border: 0;
